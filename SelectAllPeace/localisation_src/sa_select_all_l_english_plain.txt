@@ -1,0 +1,6 @@
+# 国际版英文文案备份（当前 localisation/ 下的 l_english 文件放的是中文双字节编码，
+# 面向中文玩家社区；若要发国际版，用下面的键值替换后按原格式生成即可）
+l_english:
+ sa_peace_select_all_desc:0 "Shortcut: auto-selects every addable province in the current tab (exactly equivalent to clicking each one manually - normal warscore/diplo power/AE apply). Auto-unchecks when any province is deselected. Requires the SelectAll plugin (see description); without it this option is inert."
+ CB_ALLOWED_sa_peace_select_all:0 "Select All Provinces"
+ PEACE_sa_peace_select_all:0 "Demand All Provinces (Select All)"

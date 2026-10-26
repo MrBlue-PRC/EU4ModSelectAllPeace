@@ -1,0 +1,31 @@
+# Select All Provinces / 一键全选省份（和谈快捷操作）
+#
+# 本条款自身不产生任何游戏效果、不占战争分数——它是一个"全选按钮"。
+# 配合 SelectAll 插件（selectall.dll，见创意工坊说明页的安装链接）：
+#   在和谈界面点击本条款 -> 自动把当前页签（索取/给予）下所有可加入的省份
+#   逐个经游戏原生流程加入（CanAdd 校验 -> Add -> 刷新），
+#   战争分数 / 外交点 / 侵略扩张 / 阶级领土变化与手动逐个点选完全一致。
+#   取消选中任意省份后，本条款自动反选。
+#   热键 T 任何时候等价可用。
+#
+# 未安装插件时：本条款可见、零费用、无任何效果（点击只会加入一个空条款）。
+#
+# This treaty itself has zero effect and zero warscore cost - it is a pure
+# "select all" shortcut button. With the SelectAll plugin (selectall.dll)
+# installed, clicking it auto-selects every addable province in the current
+# tab through the game's own native pipeline (identical cost/AE/estate side
+# effects to clicking each province manually). Hotkey T works too.
+# Without the plugin this option is visible but inert.
+sa_peace_select_all = {
+	category = 6
+	power_cost_base = 0.0
+	prestige_base = 0.0
+	ae_base = 0.0
+	warscore_cost = {
+		no_provinces = 0.0
+		all_provinces = 0.0
+	}
+	warscore_cap = -1
+	effect = {
+	}
+}

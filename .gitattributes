@@ -1,0 +1,13 @@
+# 默认按文本自动处理
+* text=auto
+
+# Windows 批处理必须 CRLF
+*.bat text eol=crlf
+
+# 双字节本地化产物：字节精确，禁止任何 EOL/编码转换
+SelectAllPeace/localisation/** -text
+
+# 二进制
+*.zip binary
+*.dll binary
+*.png binary

@@ -1,0 +1,4 @@
+l_simply_chinese:
+ sa_peace_select_all_desc:0 "快捷操作：点击后自动全选当前页签下所有可加入的省份（与手动逐个点选完全等价，正常计算战争分数/外交点/侵略扩张）。取消选中任意省份后本条款自动反选。需配合 SelectAll 插件（见说明页），未安装时本条款无任何效果。"
+ CB_ALLOWED_sa_peace_select_all:0 "全选省份"
+ PEACE_sa_peace_select_all:0 "吞并全部省份（全选）"

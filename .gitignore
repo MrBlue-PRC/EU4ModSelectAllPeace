@@ -1,0 +1,16 @@
+# 构建产物（发布包走 plugin/release/*.zip）
+*.obj
+plugin/selectall.dll
+plugin/release/selectall.dll
+
+# Visual Studio（根锚定，避免误伤 plugin/release/）
+.vs/
+x64/
+/Debug/
+/Release/
+*.user
+*.suo
+
+# 本地痕迹
+Thumbs.db
+desktop.ini
