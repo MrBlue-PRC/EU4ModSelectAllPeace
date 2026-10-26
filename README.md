@@ -26,7 +26,8 @@ Mod 部分单独使用无副作用（条款可见、零费用、零效果）；
 
 ### 第 0 步：Mod 部分
 
-Steam 创意工坊订阅本 Mod（或把 `SelectAllPeace/` 文件夹与 `SelectAllPeace.mod`
+[Steam 创意工坊订阅本 Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=3827792389)
+（或把 `SelectAllPeace/` 文件夹与 `SelectAllPeace.mod`
 一起放入 `Documents/Paradox Interactive/Europa Universalis IV/mod/`，启动器勾选）。
 
 ### 插件部分（按你的情况二选一）
