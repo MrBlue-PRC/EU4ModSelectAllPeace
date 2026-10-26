@@ -42,8 +42,12 @@ Steam 创意工坊订阅本 Mod（或把 `SelectAllPeace/` 文件夹与 `SelectA
 1. 从 [EU4dll Releases](https://github.com/matanki-saito/EU4dll/releases) 下载最新版，
    解压后把**所有文件**（`version.dll`、`d3d9.dll`、`plugins/` 等）放入游戏根目录
    （eu4.exe 所在目录）。杀毒软件可能误报，需手动加白名单。
-2. 解压 `plugin/release/selectall_v1.7.zip`，把 `selectall.dll` 放入 `plugins/`
+2. 下载插件包并解压，把 `selectall.dll` 放入 `plugins/`
    文件夹（没有该文件夹就新建一个）。
+
+**插件包下载**（v1.7，含 dll + 安装说明）：
+[GitHub 直链](https://github.com/MrBlue-PRC/EU4ModSelectAllPeace/raw/main/plugin/release/selectall_v1.7.zip) ｜
+百度网盘：https://pan.baidu.com/s/1cvDUfjoTylwKaeSmTTfANw?pwd=ryyt （提取码：ryyt）
 
 ### 验证
 
