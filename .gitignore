@@ -14,3 +14,6 @@ x64/
 # 本地痕迹
 Thumbs.db
 desktop.ini
+
+# 内部资料（迁移保留，不入公开仓库）
+docs/交接文档-internal.md
