@@ -24,15 +24,30 @@ Mod 部分单独使用无副作用（条款可见、零费用、零效果）；
 
 ## 安装 / Install
 
-1. **Mod**：Steam 创意工坊订阅本 Mod（或把 `SelectAllPeace/` 文件夹与
-   `SelectAllPeace.mod` 一起放入 `Documents/Paradox Interactive/Europa Universalis IV/mod/`，
-   启动器勾选）。
-2. **插件**：解压 `plugin/release/selectall_v1.7.zip`，把 `selectall.dll`
-   放入游戏目录的 `plugins/` 文件夹。
-   - 前置：游戏目录需有 [EU4dll](https://github.com/matanki-saito/EU4dll) 的
-     `version.dll` 加载器（玩中文/日文 Mod 的玩家通常已装好）。
-   - 没有 `plugins/` 目录就新建一个。
-3. 开一局游戏验证：和谈界面按 `T`。
+### 第 0 步：Mod 部分
+
+Steam 创意工坊订阅本 Mod（或把 `SelectAllPeace/` 文件夹与 `SelectAllPeace.mod`
+一起放入 `Documents/Paradox Interactive/Europa Universalis IV/mod/`，启动器勾选）。
+
+### 插件部分（按你的情况二选一）
+
+**情况 A：装过双字节补丁（中文/日文汉化 Mod 玩家）——只需一步**
+
+双字节补丁（EU4dll）就是汉化 Mod 的显示补丁，它自带加载器。
+**把 `selectall.dll` 放入游戏目录的 `plugins/` 文件夹即可直接使用**，
+无需任何其他操作，与汉化补丁互不干扰；卸载删除这一个文件即可。
+
+**情况 B：没装过双字节补丁——先装加载器（两步）**
+
+1. 从 [EU4dll Releases](https://github.com/matanki-saito/EU4dll/releases) 下载最新版，
+   解压后把**所有文件**（`version.dll`、`d3d9.dll`、`plugins/` 等）放入游戏根目录
+   （eu4.exe 所在目录）。杀毒软件可能误报，需手动加白名单。
+2. 解压 `plugin/release/selectall_v1.7.zip`，把 `selectall.dll` 放入 `plugins/`
+   文件夹（没有该文件夹就新建一个）。
+
+### 验证
+
+开一局游戏，和谈界面按 `T`。
 
 ## 使用 / Usage
 
